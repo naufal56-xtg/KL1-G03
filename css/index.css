@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #ECECEC;
+}
+
+.nav-container {
+    width: 100%;
+    height: 64px;
+    background: #0080ff;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.wrapper {
+    min-width: 1200px;
+    margin: 0 auto;
+ }
+
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 160px;
+ }
+
+ nav ul {
+    display: flex;
+ }
+
+.nav-items li {
+    list-style: none;
+    margin-right: 50px;
+    
+}
+
+.nav-container li a {
+    font-family: 'Cocogoose Pro Regular';
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    padding-left: 115px;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 929px;
+    height: 632px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow:  10px 10px 0 rgba(5, 5, 5, 0.1);
+    border-top: 5px solid #87CEEB;
+}
+
+.container-2 {
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 929px;
+    height: 491px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow:  10px 10px 0 rgba(5, 5, 5, 0.1);
+}
+
+.text {
+    padding-top: 50px;
+}
+
+.text-1 {
+    text-align: center;
+    font-family: 'Cocogoose Pro Light';
+    color: #333333;
+    font-size: 24px;
+    font-weight: 250;
+    font-style: normal;
+    line-height: 32px;
+}
+
+.text-2 {
+    font-family: 'Cocogoose Pro Regular';
+    text-align: center;
+    color: #333333;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.text-3 {
+    margin-top: 20px;
+    font-family: 'Actor', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+ .container .text-member {
+    font-family: 'Cocogoose Pro Regular';
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+ }
+
+.member {
+   padding-left: 35px;
+   padding-right: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 20px;
+ }
+
+ .kelas {
+    padding-left: 40px;
+   padding-right: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 20px;
+ }
+
+ .jam {
+    padding-left: 30px;
+    padding-right: 40px;
+     font-size: 14px;
+     font-weight: 400;
+     color: #333333;
+     line-height: 20px;
+ }
+
+ .container-kecil {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+.container-member, .container-jam, .container-kelas {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: 2px solid #C4C4C4;
+}
+
+
+.angka-5, .angka-4 {
+    font-family: 'Coolvetica';
+    position: absolute;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    top: 25px;
+    left: 40px;
+}
+
+.angka-40 {
+    font-family: 'Coolvetica';
+    position: absolute;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    top: 25px;
+    left: 33px;
+}
+
+.hr-1,  .hr-3 {
+    position: absolute;
+    border: 2.5px solid #C4C4C4;
+    width: 50px;
+    top: 70px;
+    left: 25px;
+    
+}
+
+.hr-2 {
+    position: absolute;
+    border: 2.5px solid #C4C4C4;
+    width: 50px;
+    top: 70px;
+    left: 27px;
+}
+
+.devider {
+    margin: auto;
+    border: 2px solid #DCDCDC;
+    width: 750px;
+}
+
+.btn-gabung {
+    position: relative;
+    padding-top: 50px;
+    margin: auto;
+    margin-top: 50px;
+    width: 267px;
+    height: 63px;
+    background-color: #0080FF;
+    border-radius: 15px;
+}
+
+.text-gabung {
+    font-family: 'Cocogoose Pro Regular';
+    position: absolute;
+    bottom: 20px;
+    left: 95px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.img-flat-1 {
+    width: 500px;
+    height: 491px;
+    border-radius: 30px;
+}
+
+
+
+.harga {
+    font-family: 'Cocogoose Pro Regular';
+    position: absolute;
+    right: 190px;
+    top: 50px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.rp {
+    font-family: 'Roboto';
+    position: absolute;
+    right: 63px;
+    top: 100px;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.rj {
+    font-family: 'Cocogoose Pro Regular';
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.jadwal {
+    font-family: 'Coolvetica';
+    position: absolute;
+    right: 157px;
+    top: 170px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.checkbox-1 {
+    position: absolute;
+    right: 225px;
+    top: 220px;
+}
+
+.checkbox-2 {
+    position: absolute;
+    right: 191px;
+    top: 250px;
+}
+
+.checkbox-3 {
+    position: absolute;
+    right: 220px;
+    top: 280px;
+}
+
+.checkbox-4 {
+    position: absolute;
+    right: 169px;
+    top: 310px;
+}
+
+
+
+input[type="checkbox"]:checked {
+    background-color: #3EA8FF;
+}
+
+.chck-text-1, .chck-text-2, .chck-text-3, .chck-text-4 {
+    display: inline;
+    font-family: 'Cocogoose Pro Light';
+    font-size: 12px;
+    font-weight: 250;
+    padding-left: 10px;
+
+}
+
+.chck-text-4 .txt-pisah {
+    padding-left: 27px;
+}
+
+.btn-gabung-2 {
+    right: 135px;
+    bottom: 50px;
+    position: absolute;
+    padding-top: 50px;
+    margin: auto;
+    margin-top: 50px;
+    width: 267px;
+    height: 63px;
+    background-color: #0080FF;
+    border-radius: 15px;
+}
+
+.text-gabung-2 {
+    font-family: 'Cocogoose Pro Regular';
+    position: absolute;
+    bottom: 20px;
+    left: 95px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.container-item {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    padding-left: 175px;
+}
+
+.container-item-1, .container-item-2, .container-item-3 {
+    /* display: inline-block; */
+    margin-left: 30px;
+    width: 293px;
+    height: 293px;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+}
+
+.container-item-4 {
+    display: inline;
+}
+
+
