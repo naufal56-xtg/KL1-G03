@@ -347,7 +347,12 @@ input[type="checkbox"]:checked {
 }
 
 .container-item-4 {
-    display: inline;
+    display: inline-block;
+    margin-left: 30px;
+    width: 293px;
+    height: 293px;
+    background-color: #C4C4C4;
+    border-radius: 30px;
 }
 
 
