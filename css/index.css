@@ -288,12 +288,6 @@ body {
     top: 310px;
 }
 
-
-
-input[type="checkbox"]:checked {
-    background-color: #3EA8FF;
-}
-
 .chck-text-1, .chck-text-2, .chck-text-3, .chck-text-4 {
     display: inline;
     font-family: 'Cocogoose Pro Light';
@@ -330,24 +324,91 @@ input[type="checkbox"]:checked {
     color: #FFFFFF;
 }
 
-.container-item {
+.title-kelas-minerva {
     margin-top: 50px;
-    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Cocogoose Pro Regular';
+    font-size: 28px;
+    font-weight: 400;
+    color: #333333;
+
+}
+
+.container-items {
+    margin-top: 50px;
+    display: flex;
+    padding-left: 175px;
+}
+
+.container-items-second {
+    margin-top: 30px;
+    margin-bottom: 50px;
     display: flex;
     padding-left: 175px;
 }
 
 .container-item-1, .container-item-2, .container-item-3 {
-    /* display: inline-block; */
+    position: relative;
     margin-left: 30px;
     width: 293px;
     height: 293px;
     background-color: #C4C4C4;
     border-radius: 30px;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.25);
+
 }
 
-.container-item-4 {
-    display: inline;
+.container-item-4, .container-item-5, .container-item-6 {
+    position: relative;
+    display: block;
+    margin-left: 30px;
+    width: 293px;
+    height: 293px;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.25);
+
+}
+
+
+.ci-1 {
+    position: absolute;
+    bottom: 0;
+    width: 293px;
+    height: 154px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+}
+
+.basic {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Cocogoose Pro Regular';
+}
+
+.btn-lihat {
+    background-color: #0080FF;
+    border-radius: 15px;
+    width: 194px;
+    height: 45px;
+    margin: auto;
+}
+
+.lihat {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: 'Cocogoose Pro Regular';
+
 }
 
 
