@@ -61,3 +61,76 @@ body {
     box-shadow:  10px 10px 0 rgba(5, 5, 5, 0.1);
     border-top: 5px solid #87CEEB;
 }
+
+.regContainer {
+    /* position:relative; */
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    width: 584px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow:  10px 10px 0 rgba(5, 5, 5, 0.1);
+    height:400px;
+    /* border-top: 5px solid #87CEEB; */
+}
+.regWrap {
+    display:flex;
+    flex-direction: column;
+}
+.regAva {
+    margin-top:-100px;
+    width:220px;
+    
+    /* position:absolute;  */
+}
+.regContent {
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+.regContent h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Cocogoose Pro Regular';
+
+}
+.regForm {
+    display:block;
+}
+.regForm select {
+    background-color:white;
+    border:2px solid blue;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    font-family: 'Cocogoose Pro light';
+    width:220px
+}
+.regForm option {
+    background-color:white;
+    border:2px solid 0080FF;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    font-family: 'Cocogoose Pro light';
+}
+.regFormTime {
+    display: flex;
+}
+.regFormTime select {
+    background-color:white;
+    border:2px solid blue;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    font-family: 'Cocogoose Pro light';
+
+}
+.regFormTime option {
+    background-color:white;
+    border:2px solid 0080FF;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    font-family: 'Cocogoose Pro light';
+}
