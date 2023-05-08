@@ -14,6 +14,7 @@ body {
     background: #0080ff;
     box-shadow: 0 5px 20px rgb(0, 0, 0, 0.25);
     overflow: hidden;
+    /* position:fixed; */
 }
 
 .wrapper {
@@ -28,6 +29,7 @@ body {
     padding-top: 20px;
     padding-left: 100px; 
     padding-right: 160px;
+
  }
 
  nav ul {
@@ -73,7 +75,7 @@ body {
     background-color: #FFFFFF;
     border-radius: 30px;
     box-shadow:  10px 10px 0 rgba(5, 5, 5, 0.1);
-    height:400px;
+    height:450px;
     /* border-top: 5px solid #87CEEB; */
 }
 .regWrap {
@@ -100,6 +102,7 @@ body {
 }
 .regForm {
     display:block;
+    margin-top:10px
 }
 .regForm select {
     background-color:white;
@@ -118,6 +121,8 @@ body {
 }
 .regFormTime {
     display: flex;
+    padding-top:10px;
+
 }
 .regFormTime select {
     background-color:white;
@@ -133,4 +138,22 @@ body {
     border-radius: 10px 10px 10px 10px;
     padding: 20px;
     font-family: 'Cocogoose Pro light';
+}
+
+.Jam {
+    width: 100px;
+}
+.Days {
+    margin-left:10px;
+    width:110px;
+}
+
+button {
+    background-color:#0080ff;
+    border:2px solid 0080FF;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    font-family: 'Cocogoose Pro light';
+    width:220px;
+    margin-top:10px;
 }
