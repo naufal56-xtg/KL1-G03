@@ -48,7 +48,13 @@ body {
 }
 
 .logo {
-    padding-left: 115px;
+    position: absolute;
+    width: 127px;
+    height: 27px;
+    right: 955px;
+    left: 70px;
+    top: 18px;
+    bottom: 655px;
 }
 
 .container {
