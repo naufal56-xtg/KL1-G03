@@ -1,420 +1,645 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 body {
-    background-color: #ECECEC;
+  background-color: #ececec;
 }
 
 .nav-container {
-    width: 100%;
-    height: 64px;
-    background: #0080ff;
-    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.25);
-    overflow: hidden;
+  width: 100%;
+  height: 64px;
+  background: #0080ff;
+  box-shadow: 0 5px 20px rgb(0, 0, 0, 0.25);
+  overflow: hidden;
 }
 
 .wrapper {
-    min-width: 1200px;
-    margin: 0 auto;
- }
+  min-width: 1200px;
+  margin: 0 auto;
+}
 
- nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 100px;
-    padding-right: 160px;
- }
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 160px;
+}
 
- nav ul {
-    display: flex;
- }
+nav ul {
+  display: flex;
+}
 
 .nav-items li {
-    list-style: none;
-    margin-right: 50px;
-    
+  list-style: none;
+  margin-right: 50px;
+}
+
+.nav-items li a:hover {
+  color: #333333;
 }
 
 .nav-container li a {
-    font-family: 'Cocogoose Pro Regular';
-    color: white;
-    text-decoration: none;
+  font-family: "Cocogoose Pro Regular";
+  color: white;
+  text-decoration: none;
 }
 
 .logo {
-    position: absolute;
-    width: 127px;
-    height: 27px;
-    right: 955px;
-    left: 70px;
-    top: 18px;
-    bottom: 655px;
+    padding-left: 115px;
 }
 
 .container {
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 60px;
-    width: 929px;
-    height: 632px;
-    background-color: #FFFFFF;
-    border-radius: 30px;
-    box-shadow:  10px 10px 0 rgba(5, 5, 5, 0.1);
-    border-top: 5px solid #87CEEB;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  width: 929px;
+  height: 632px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 10px 10px 0 rgba(5, 5, 5, 0.1);
+  border-top: 5px solid #87ceeb;
 }
 
 .container-2 {
-    position: relative;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 60px;
-    width: 929px;
-    height: 491px;
-    background-color: #FFFFFF;
-    border-radius: 30px;
-    box-shadow:  10px 10px 0 rgba(5, 5, 5, 0.1);
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  width: 929px;
+  height: 491px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 10px 10px 0 rgba(5, 5, 5, 0.1);
 }
 
 .text {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .text-1 {
-    text-align: center;
-    font-family: 'Cocogoose Pro Light';
-    color: #333333;
-    font-size: 24px;
-    font-weight: 250;
-    font-style: normal;
-    line-height: 32px;
+  text-align: center;
+  font-family: "Cocogoose Pro Light";
+  color: #333333;
+  font-size: 24px;
+  font-weight: 250;
+  font-style: normal;
+  line-height: 32px;
 }
 
 .text-2 {
-    font-family: 'Cocogoose Pro Regular';
-    text-align: center;
-    color: #333333;
-    font-size: 64px;
-    font-weight: 400;
+  font-family: "Cocogoose Pro Regular";
+  text-align: center;
+  color: #333333;
+  font-size: 64px;
+  font-weight: 400;
 }
 
 .text-3 {
-    margin-top: 20px;
-    font-family: 'Actor', sans-serif;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
- }
+  margin-top: 20px;
+  font-family: "Actor", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
 
- .container .text-member {
-    font-family: 'Cocogoose Pro Regular';
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    
- }
+.container .text-member {
+  font-family: "Cocogoose Pro Regular";
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
 
 .member {
-   padding-left: 35px;
-   padding-right: 50px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #333333;
-    line-height: 20px;
- }
-
- .kelas {
-    padding-left: 40px;
-   padding-right: 50px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #333333;
-    line-height: 20px;
- }
-
- .jam {
-    padding-left: 30px;
-    padding-right: 40px;
-     font-size: 14px;
-     font-weight: 400;
-     color: #333333;
-     line-height: 20px;
- }
-
- .container-kecil {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-
+  padding-left: 35px;
+  padding-right: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 20px;
 }
 
-.container-member, .container-jam, .container-kelas {
-    position: relative;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
-    border: 2px solid #C4C4C4;
+.kelas {
+  padding-left: 40px;
+  padding-right: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 20px;
 }
 
+.jam {
+  padding-left: 30px;
+  padding-right: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 20px;
+}
 
-.angka-5, .angka-4 {
-    font-family: 'Coolvetica';
-    position: absolute;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 43px;
-    top: 25px;
-    left: 40px;
+.container-kecil {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.container-member,
+.container-jam,
+.container-kelas {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  border: 2px solid #c4c4c4;
+}
+
+.angka-5,
+.angka-4 {
+  font-family: "Coolvetica";
+  position: absolute;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  top: 25px;
+  left: 40px;
 }
 
 .angka-40 {
-    font-family: 'Coolvetica';
-    position: absolute;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 43px;
-    top: 25px;
-    left: 33px;
+  font-family: "Coolvetica";
+  position: absolute;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  top: 25px;
+  left: 33px;
 }
 
-.hr-1,  .hr-3 {
-    position: absolute;
-    border: 2.5px solid #C4C4C4;
-    width: 50px;
-    top: 70px;
-    left: 25px;
-    
+.hr-1,
+.hr-3 {
+  position: absolute;
+  border: 2.5px solid #c4c4c4;
+  width: 50px;
+  top: 70px;
+  left: 25px;
 }
 
 .hr-2 {
-    position: absolute;
-    border: 2.5px solid #C4C4C4;
-    width: 50px;
-    top: 70px;
-    left: 27px;
+  position: absolute;
+  border: 2.5px solid #c4c4c4;
+  width: 50px;
+  top: 70px;
+  left: 27px;
 }
 
 .devider {
-    margin: auto;
-    border: 2px solid #DCDCDC;
-    width: 750px;
+  margin: auto;
+  border: 2px solid #dcdcdc;
+  width: 750px;
 }
 
 .btn-gabung {
-    position: relative;
-    padding-top: 50px;
-    margin: auto;
-    margin-top: 50px;
-    width: 267px;
-    height: 63px;
-    background-color: #0080FF;
-    border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+  padding-top: 50px;
+  margin: auto;
+  margin-top: 50px;
+  width: 267px;
+  height: 63px;
+  background-color: #0080ff;
+  border-radius: 15px;
+}
+
+.btn-gabung:hover {
+  background-color: #a9a9a9;
+  color: #ffffff;
 }
 
 .text-gabung {
-    font-family: 'Cocogoose Pro Regular';
-    position: absolute;
-    bottom: 20px;
-    left: 95px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #FFFFFF;
+  font-family: "Cocogoose Pro Regular";
+  position: absolute;
+  bottom: 20px;
+  left: 95px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .img-flat-1 {
-    width: 500px;
-    height: 491px;
-    border-radius: 30px;
+  width: 500px;
+  height: 491px;
+  border-radius: 30px;
 }
 
-
-
 .harga {
-    font-family: 'Cocogoose Pro Regular';
-    position: absolute;
-    right: 190px;
-    top: 50px;
-    font-size: 28px;
-    font-weight: 400;
+  font-family: "Cocogoose Pro Regular";
+  position: absolute;
+  right: 190px;
+  top: 50px;
+  font-size: 28px;
+  font-weight: 400;
 }
 
 .rp {
-    font-family: 'Roboto';
-    position: absolute;
-    right: 63px;
-    top: 100px;
-    font-size: 48px;
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Roboto";
+  position: absolute;
+  right: 63px;
+  top: 100px;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .rj {
-    font-family: 'Cocogoose Pro Regular';
-    font-size: 28px;
-    font-weight: 400;
+  font-family: "Cocogoose Pro Regular";
+  font-size: 28px;
+  font-weight: 400;
 }
 
 .jadwal {
-    font-family: 'Coolvetica';
-    position: absolute;
-    right: 157px;
-    top: 170px;
-    font-size: 24px;
-    font-weight: 400;
+  font-family: "Coolvetica";
+  position: absolute;
+  right: 157px;
+  top: 170px;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .checkbox-1 {
-    position: absolute;
-    right: 225px;
-    top: 220px;
+  position: absolute;
+  right: 225px;
+  top: 220px;
 }
 
 .checkbox-2 {
-    position: absolute;
-    right: 191px;
-    top: 250px;
+  position: absolute;
+  right: 191px;
+  top: 250px;
 }
 
 .checkbox-3 {
-    position: absolute;
-    right: 220px;
-    top: 280px;
+  position: absolute;
+  right: 220px;
+  top: 280px;
 }
 
 .checkbox-4 {
-    position: absolute;
-    right: 169px;
-    top: 310px;
+  position: absolute;
+  right: 169px;
+  top: 310px;
 }
 
-.chck-text-1, .chck-text-2, .chck-text-3, .chck-text-4 {
-    display: inline;
-    font-family: 'Cocogoose Pro Light';
-    font-size: 12px;
-    font-weight: 250;
-    padding-left: 10px;
-
+.chck-text-1,
+.chck-text-2,
+.chck-text-3,
+.chck-text-4 {
+  display: inline;
+  font-family: "Cocogoose Pro Light";
+  font-size: 12px;
+  font-weight: 250;
+  padding-left: 10px;
 }
 
 .chck-text-4 .txt-pisah {
-    padding-left: 27px;
+  padding-left: 27px;
 }
 
 .btn-gabung-2 {
-    right: 135px;
-    bottom: 50px;
-    position: absolute;
-    padding-top: 50px;
-    margin: auto;
-    margin-top: 50px;
-    width: 267px;
-    height: 63px;
-    background-color: #0080FF;
-    border-radius: 15px;
+  cursor: pointer;
+  right: 135px;
+  bottom: 50px;
+  position: absolute;
+  padding-top: 50px;
+  margin: auto;
+  margin-top: 50px;
+  width: 267px;
+  height: 63px;
+  background-color: #0080ff;
+  border-radius: 15px;
+}
+
+.btn-gabung-2:hover {
+  background-color: #a9a9a9;
+  color: #ffffff;
 }
 
 .text-gabung-2 {
-    font-family: 'Cocogoose Pro Regular';
-    position: absolute;
-    bottom: 20px;
-    left: 95px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #FFFFFF;
+  font-family: "Cocogoose Pro Regular";
+  position: absolute;
+  bottom: 20px;
+  left: 95px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .title-kelas-minerva {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Cocogoose Pro Regular';
-    font-size: 28px;
-    font-weight: 400;
-    color: #333333;
-
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Cocogoose Pro Regular";
+  font-size: 28px;
+  font-weight: 400;
+  color: #333333;
 }
 
 .container-items {
-    margin-top: 50px;
-    display: flex;
-    padding-left: 175px;
+  margin-top: 50px;
+  display: flex;
+  padding-left: 175px;
 }
 
 .container-items-second {
-    margin-top: 30px;
-    margin-bottom: 50px;
-    display: flex;
-    padding-left: 175px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  padding-left: 175px;
 }
 
-.container-item-1, .container-item-2, .container-item-3 {
-    position: relative;
-    margin-left: 30px;
-    width: 293px;
-    height: 293px;
-    background-color: #C4C4C4;
-    border-radius: 30px;
-    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.25);
-
+.container-item-1,
+.container-item-2,
+.container-item-3 {
+  position: relative;
+  margin-left: 30px;
+  width: 293px;
+  height: 293px;
+  background-color: #c4c4c4;
+  border-radius: 30px;
+  box-shadow: 0 5px 20px rgb(0, 0, 0, 0.25);
 }
 
-.container-item-4, .container-item-5, .container-item-6 {
-    position: relative;
-    display: block;
-    margin-left: 30px;
-    width: 293px;
-    height: 293px;
-    background-color: #C4C4C4;
-    border-radius: 30px;
-    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.25);
-
+.container-item-4,
+.container-item-5,
+.container-item-6 {
+  position: relative;
+  display: block;
+  margin-left: 30px;
+  width: 293px;
+  height: 293px;
+  background-color: #c4c4c4;
+  border-radius: 30px;
+  box-shadow: 0 5px 20px rgb(0, 0, 0, 0.25);
 }
-
 
 .ci-1 {
-    position: absolute;
-    bottom: 0;
-    width: 293px;
-    height: 154px;
-    border-radius: 30px;
-    background-color: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  width: 293px;
+  height: 154px;
+  border-radius: 30px;
+  background-color: #ffffff;
 }
 
 .basic {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: 400;
-    color: #333333;
-    font-family: 'Cocogoose Pro Regular';
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333333;
+  font-family: "Cocogoose Pro Regular";
 }
 
 .btn-lihat {
-    background-color: #0080FF;
-    border-radius: 15px;
-    width: 194px;
-    height: 45px;
-    margin: auto;
+  cursor: pointer;
+  background-color: #0080ff;
+  border-radius: 15px;
+  width: 194px;
+  height: 45px;
+  margin: auto;
+}
+
+.btn-lihat:hover {
+  background-color: #a9a9a9;
+  color: #ffffff;
 }
 
 .lihat {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #FFFFFF;
-    font-family: 'Cocogoose Pro Regular';
-
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Cocogoose Pro Regular";
 }
 
+/* testimoni  */
 
+.testiContainer {
+  background-color: #0080ff;
+  padding-top: 50px;
+  /* display:flex; */
+  height: 500px;
+}
+
+.testiBox {
+  width: 704px;
+  margin: auto;
+  position: relative;
+  /* margin-top:100px */
+}
+.testiBox h1 {
+  margin: 20px 0;
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Cocogoose Pro Regular";
+  text-align: center;
+}
+.testiSpot {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  height: 253px;
+  width: 704px;
+  position: relative;
+}
+.testiPic {
+  background-color: #c4c4c4;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 34px;
+  width: 278px;
+  height: 253px;
+  position: absolute;
+}
+.testiPic img {
+}
+.testiText {
+  padding-left: 310px;
+  padding-right: 50px;
+  height: 253px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.testiText h2 {
+  text-align: left;
+  font-family: "Cocogoose Pro Regular";
+  color: #333333;
+}
+.testiText p {
+  text-align: left;
+  font-family: "Actor", sans-serif;
+  font-weight: normal;
+}
+.testiPagination {
+  margin: auto;
+  padding-top: 20px;
+  width: 704px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testiPagination ul {
+  text-align: center;
+  padding-top: 20px;
+}
+.testiPagination li {
+  display: inline-block;
+  padding-right: 10px;
+  border-radius: 18px;
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-right: 10px;
+}
+.testiPagination li:hover {
+  display: inline-block;
+  padding-right: 10px;
+  border-radius: 18px;
+  width: 18px;
+  height: 18px;
+  background-color: #0080ff;
+  border: 1px solid #ffffff;
+  margin-right: 10px;
+}
+/*  footer  */
+
+.footer {
+  position: relative;
+  margin: auto;
+  width: 929px;
+  display: flex;
+  align-items: top;
+  padding: 65px 0;
+}
+.footerLeft {
+  width: 50%;
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 60px;
+}
+.footerLeft h2 {
+  font-family: "Cocogoose Pro Regular";
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+}
+.footerLeft p {
+  font-family: "Actor", sans-serif;
+  font-weight: normal;
+}
+.footerLeft p:last-child {
+  font-family: "Coolvetica";
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.footerRight {
+  width: 50%;
+  text-align: left;
+  padding-left: 20px;
+  font-family: "Cocogoose Pro Regular";
+}
+
+.footerRight h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.footerRight h3 {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+}
+
+.footerRight h3 span {
+  font-family: "Coolvetica";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btnChat {
+  cursor: pointer;
+  margin-top: 10px;
+  width: 194px;
+  height: 45px;
+  background-color: #0080ff;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+.btnChat:hover {
+  background-color: #a9a9a9;
+  color: #ffffff;
+  border: 1px solid #0080ff;
+}
+
+.or {
+  padding-left: 85px;
+  font-size: 10px;
+  color: #a9a9a9;
+}
+
+.btnAnother {
+  cursor: pointer;
+  margin-top: 10px;
+  width: 194px;
+  height: 45px;
+  background-color: #ececec;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 10px;
+  color: #0080ff;
+  border: 1px solid #0080ff;
+}
+
+.btnAnother:hover {
+  background-color: #a9a9a9;
+  color: #ffffff;
+}
+
+.copyRight {
+  margin-bottom: 100px;
+}
+
+.copyRight p {
+  position: absolute;
+  bottom: -100px;
+  padding-bottom: 50px;
+  font-family: "Coolvetica";
+  right: 45%;
+}
+
+/* .btnChat:hover {
+  background-color: #ffffff;
+  border: 1px solid #0080ff;
+  border-radius: 15px;
+  text-align: center;
+  color: #0080ff;
+} */
