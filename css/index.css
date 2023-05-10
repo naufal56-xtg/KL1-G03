@@ -408,7 +408,39 @@ body {
     font-weight: 400;
     color: #FFFFFF;
     font-family: 'Cocogoose Pro Regular';
-
 }
 
+.container-testi {
+    background-color:#0080FF;
+    height: 500px;
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+}
+.wrap-testi {
+    display:inline-block;
+    background-color: aqua;
+    display:flex;
+    justify-content: center;
+    margin:auto;
+}
+.box-testi {
+    width: 704px;
+    margin:auto;
+    background-color:burlywood
+}
+h1.testi {
+    margin:20px 0;
+    font-size:48px;
+    color: #FFFFFF;
+    font-family: 'Cocogoose Pro Regular';
 
+}
+.spot-testi {
+
+}
+.spot-testi h1 {
+    font-size:24px;
+    color: #000000;
+    font-family: 'Cocogoose Pro Regular';
+}
