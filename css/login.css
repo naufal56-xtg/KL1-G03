@@ -7,244 +7,205 @@
 body {
     background: #0080ff;
 }
-
+/* Navbar */
+/* Navbar Container */
 .nav-container {
-    }
-
+    position: absolute;
+    background-color: transparent;       
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+/* Logo */
 img {
-    position: absolute;
-    width: 127px;
-    height: 27px;
+    position: absolute;    
     left: 100px;
-    top: 18px;
-    right: 955px;
-    bottom: 655px;   
+    top: 18px;    
 }
+/* Logo End */
 
-li {
-    list-style: none;
-}
+/* List */
 
-a {
-    text-decoration: none;
-}
-
-
-.nav-items a {
+.nav-list, .nav-list1 {
     position: absolute;
-    width: 50px;
-    height: 17px;
-    left: 379px;
-    top: 23px;    
-    font-family: 'Cocogoose Pro Regular';
-
-    font-style: normal;
-    font-weight: 400;
+    
+    left: 390px;
+    top: 23px;  
+    
+    font-family: 'Cocogoose Pro Regular';    
     font-size: 14px;
     line-height: 20px;
     
-    color: #FFFFFF;    
+    list-style: none;    
 }
 
-.nav-items1 a {
-    position: absolute;
-    width: 70px;
-    height: 14px;
+.nav-list1 {    
     left: 500px;
-    top: 25px;
-    font-family: 'Cocogoose Pro Regular';
+    top: 25px;    
+}
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-
+.home, .daftar {
+    text-decoration: none;
     color: #FFFFFF;
 }
+/* List End */
+/* Navbar Container End */
+/* Navbar End */
 
-.rectangle {
+/* Form */
+/* Form Container */
+.form-container {
     position: absolute;
     width: 584px;
     height: 538px;
-    left: 379px;
-    right: 379px;
-    top: 102px;
-    bottom: 60px;
+    left: 390px;    
+    top: 102px;    
 
     background: #FFFFFF;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 15px;    
 }
-
-.teks {
+/* Heading */
+.teks, .teks1 {
     position: absolute;
-    width: 181px;
-    height: 49px;
-    left: 200px;
+    
+    left: 210px;
     top: 40px;
         
-    font-family: 'Cocogoose Pro Regular';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Cocogoose Pro Regular';    
     font-size: 48px;
     line-height: 68px;
 
     color: #333333;
 }
 
-.teks1 {
+.teks1 {    
+    left: 188px;
+    top: 100px;
+
+    font-family: 'Cocogoose Pro Light';    
+    font-size: 18px;
+    line-height: 24px;      
+}
+/* Heading End */
+
+/* Username dan Password */
+.username, .password {
+    position: absolute;    
+    width: 412px;
+    height: 50px;     
+    top: 180px;    
+    border: none;
+    outline: none;
+
+    font-family: 'Cocogoose Pro SemiLight';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #120f0f;
+}
+
+.username::placeholder {    
+    color: #C4C4C4;    
+}
+
+.username {
+    border-bottom: 3px solid #C4C4C4;
+    left: 90px;
+    text-align: center;
+}
+
+.password {    
+    top: 230px;
+    left: 90px;
+    text-align: center;    
+}
+
+.password::placeholder {    
+    color: #C4C4C4;
+}
+/* Username dan Pasword End */
+
+/* Button */
+.button, .button2 {
     position: absolute;
+    width: 267px;
+    height: 63px;
+
+    border: 2px solid #0080FF;
+    border-radius: 15px;    
+    
+    font-family: 'Cocogoose Pro Regular';   
+    font-size: 18px;
+    line-height: 26px;    
+}
+
+.button {
+    left: 160px;
+    top: 300px;
+    background: #0080FF;
+    color: #FFFFFF;
+}
+
+.teks2 {
+    position: relative;
+    width: 100%;    
+    top: 367px;
+    padding-left: 290px;
+
+    font-family: 'Cocogoose Pro Regular';    
+    font-size: 12px;
+    line-height: 17px;
+    color: #CDCDCD;
+}
+
+.teks2::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 3px;
+    background:  #C4C4C4;
+    position: absolute;
+    left: 250px;
+    top: 7px;
+}
+.teks2::after {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 3px;
+    background:  #C4C4C4;
+    position: absolute;
+    right: 239px;
+    top: 7px;
+}
+
+.button2 {
+    left: 160px;
+    top: 390px;   
+
+    color: #0080FF;
+}
+/* Button End */
+
+p {
+    position: absolute;   
     width: 229px;
     height: 27px;
-    left: 175px;
-    top: 100px;
+    left: 200px;
+    top: 500px;
 
     font-family: 'Cocogoose Pro Light';
     font-style: normal;
     font-weight: 250;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 13px;
+    line-height: 17px;
 
     color: #333333;
 }
 
-.username {
-    position: absolute;
-    width: 147px;
-    height: 30px;
-    left: 218px;
-    top: 180px;
-    border: none;
-    outline: none;
-
-    font-family: 'Cocogoose Pro SemiLight';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 34px;
-
-    color: #C4C4C4;
-}
-
-.line {
-    position: absolute;
-    width: 412px;
-    height: 3px;
-    left: 80px;
-    top: 220px;
-
-    background: #C4C4C4;
-    border-radius: 1px;
-}
-
-.password {
-    position: absolute;
-    width: 147px;
-    height: 30px;
-    left: 223px;
-    top: 230px;
-    border: none;
-    outline: none;
-
-    font-family: 'Cocogoose Pro SemiLight';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 34px;
-
-    color: #C4C4C4;
-}
-
-.button {
-    position: absolute;
-    width: 267px;
-    height: 63px;
-    left: 160px;
-    top: 300px;
-    border: none;
-    outline: none;
-
-    background: #0080FF;
-    border-radius: 15px;    
-
-    font-family: 'Cocogoose Pro Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-
-    color: #FFFFFF;
-}
-
-.line1 {
-    position: absolute;
-    width: 32px;
-    height: 3px;
-    left: 250px;
-    top: 373px;
-
-    background: #C4C4C4;
-    border-radius: 1px;
-}
-
-.teks2 {
-    position: absolute;
-    width: 18px;
-    height: 15px;
-    left: 290px;
-    top: 367px;
-
-    font-family: 'Cocogoose Pro Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 17px;
-
-    color: #CDCDCD;
-}
-
-.line2 {
-    position: absolute;
-    width: 32px;
-    height: 3px;
-    left: 315px;
-    top: 373px;
-
-    background: #C4C4C4;
-    border-radius: 1px;
-}
-
-.button2 {
-    position: absolute;
-    width: 267px;
-    height: 63px;
-    left: 160px;
-    top: 390px;
-
-    border: 2px solid #0080FF;
-    border-radius: 15px;
-
-    font-family: 'Cocogoose Pro Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;    
-
-    color: #0080FF;
-}
-
-p {
-position: absolute;   
-width: 229px;
-height: 27px;
-left: 200px;
-top: 500px;
-
-font-family: 'Cocogoose Pro Light';
-font-style: normal;
-font-weight: 250;
-font-size: 13px;
-line-height: 17px;
-
-color: #333333;
-
+a {
+    text-decoration: none;
 }
