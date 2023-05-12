@@ -50,7 +50,7 @@ nav ul {
 }
 
 .logo {
-    padding-left: 115px;
+  padding-left: 115px;
 }
 
 .container {
@@ -469,8 +469,8 @@ nav ul {
   height: 253px;
   position: absolute;
 }
-.testiPic img {
-}
+/* .testiPic img {
+} */
 .testiText {
   padding-left: 310px;
   padding-right: 50px;

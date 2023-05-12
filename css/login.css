@@ -3,246 +3,198 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background: #0080ff;
 }
 
-/* .nav-container {
-    } */
-
-img {
-  position: absolute;
-  width: 127px;
-  height: 27px;
-  left: 100px;
-  top: 18px;
-  right: 955px;
-  bottom: 655px;
+.nav-container {
+  width: 100%;
+  height: 64px;
+  overflow: hidden;
 }
 
-li {
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+nav ul {
+  display: flex;
+}
+
+.nav-items li {
   list-style: none;
+  margin-right: 50px;
 }
 
-a {
+.nav-items li a:hover {
+  color: #333333;
+}
+
+.nav-container li a {
+  font-family: "Cocogoose Pro Regular";
+  color: white;
   text-decoration: none;
 }
 
-.nav-items a {
-  position: absolute;
-  width: 50px;
-  height: 17px;
-  left: 379px;
-  top: 23px;
-  font-family: "Cocogoose Pro Regular";
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-
-  color: #ffffff;
+.logo {
+  padding-left: 30px;
+  padding-right: 130px;
 }
 
-.nav-items1 a {
-  position: absolute;
-  width: 70px;
-  height: 14px;
-  left: 500px;
-  top: 25px;
-  font-family: "Cocogoose Pro Regular";
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-
-  color: #ffffff;
-}
-
-.rectangle {
+.form-container {
   position: absolute;
   width: 584px;
   height: 538px;
-  left: 379px;
-  right: 379px;
+  left: 390px;
   top: 102px;
-  bottom: 60px;
-
   background: #ffffff;
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
 }
-
+/* Header */
 .teks {
   position: absolute;
   width: 181px;
   height: 49px;
-  left: 200px;
-  top: 40px;
-
+  left: 201px;
+  top: 49px;
   font-family: "Cocogoose Pro Regular";
-  font-style: normal;
-  font-weight: 400;
   font-size: 48px;
   line-height: 68px;
-
   color: #333333;
 }
 
 .teks1 {
   position: absolute;
-  width: 229px;
-  height: 27px;
-  left: 175px;
-  top: 100px;
-
+  width: 304px;
+  height: 52px;
+  left: 137px;
+  top: 113px;
   font-family: "Cocogoose Pro Light";
-  font-style: normal;
-  font-weight: 250;
   font-size: 18px;
   line-height: 24px;
-
+  text-align: center;
   color: #333333;
 }
 
-.username {
+/* Header End */
+
+/* Username dan Password */
+.username,
+.password,
+.password2 {
   position: absolute;
-  width: 147px;
-  height: 30px;
-  left: 218px;
-  top: 180px;
+  width: 348px;
+  height: 60px;
   border: none;
   outline: none;
-
   font-family: "Cocogoose Pro SemiLight";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 24px;
   line-height: 34px;
+  color: #120f0f;
+}
 
+.username::placeholder {
   color: #c4c4c4;
 }
 
-.line {
-  position: absolute;
-  width: 412px;
-  height: 3px;
-  left: 80px;
-  top: 220px;
-
-  background: #c4c4c4;
-  border-radius: 1px;
+.username {
+  border-bottom: 3px solid #c4c4c4;
+  top: 204px;
+  left: 118px;
+  text-align: center;
 }
 
 .password {
-  position: absolute;
-  width: 147px;
-  height: 30px;
-  left: 223px;
-  top: 230px;
-  border: none;
-  outline: none;
+  border-bottom: 3px solid #c4c4c4;
+  top: 264px;
+  left: 118px;
+  text-align: center;
+}
 
-  font-family: "Cocogoose Pro SemiLight";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 34px;
-
+.password::placeholder {
   color: #c4c4c4;
 }
 
+.password2 {
+  top: 324px;
+  left: 118px;
+  text-align: center;
+}
+
+.password2::placeholder {
+  color: #c4c4c4;
+}
+/* Username dan Password End */
+
+.all-btn {
+  display: inline-block;
+  margin-left: 28%;
+  margin-top: 58%;
+}
+
 .button {
-  position: absolute;
+  padding-top: 18px;
+  text-align: center;
   width: 267px;
   height: 63px;
-  left: 160px;
-  top: 300px;
-  border: none;
-  outline: none;
-
-  background: #0080ff;
+  border: 2px solid #0080ff;
   border-radius: 15px;
-
   font-family: "Cocogoose Pro Regular";
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 26px;
-
+  background: #0080ff;
   color: #ffffff;
 }
 
-.line1 {
-  position: absolute;
-  width: 32px;
-  height: 3px;
-  left: 250px;
-  top: 373px;
-
-  background: #c4c4c4;
-  border-radius: 1px;
-}
-
-.teks2 {
-  position: absolute;
-  width: 18px;
-  height: 15px;
-  left: 290px;
-  top: 367px;
-
+.or {
+  padding-left: 125px;
   font-family: "Cocogoose Pro Regular";
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 17px;
-
   color: #cdcdcd;
 }
 
-.line2 {
-  position: absolute;
-  width: 32px;
-  height: 3px;
-  left: 315px;
-  top: 373px;
-
-  background: #c4c4c4;
-  border-radius: 1px;
-}
-
 .button2 {
-  position: absolute;
+  text-align: center;
+  padding-top: 18px;
   width: 267px;
   height: 63px;
-  left: 160px;
-  top: 390px;
-
   border: 2px solid #0080ff;
   border-radius: 15px;
-
   font-family: "Cocogoose Pro Regular";
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
-
+  line-height: 26px;
+  background: transparent;
   color: #0080ff;
 }
+/* button End */
 
+/* Footer */
 p {
   position: absolute;
   width: 229px;
   height: 27px;
-  left: 200px;
-  top: 500px;
-
+  left: 197px;
+  top: 497px;
   font-family: "Cocogoose Pro Light";
   font-style: normal;
   font-weight: 250;
   font-size: 13px;
   line-height: 17px;
-
   color: #333333;
 }
+
+p .text-b {
+  color: #5b6cff;
+}
+
+a {
+  text-decoration: none;
+}
+/* Footer End */
