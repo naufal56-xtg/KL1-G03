@@ -42,6 +42,10 @@ body {
     margin-right: 50px;
 }
 
+.nav-items li a:hover {
+    color: #333333;
+  }
+
 .nav-container li a {
     font-family: 'Cocogoose Pro Regular';
     color: white;
@@ -154,6 +158,14 @@ button {
     border-radius: 10px 10px 10px 10px;
     padding: 20px;
     font-family: 'Cocogoose Pro light';
+    font-weight:bold;
     width:220px;
     margin-top:10px;
+}
+
+button:hover {
+    background-color: #a9a9a9;
+    color: #ffffff;
+    border:1px solid #0080ff;
+  }
 }
